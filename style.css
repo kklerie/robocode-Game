@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    font-family: "Merriweather", serif;
+}
+
+header {
+    height: 10vh;
+    text-align: center;
+    color: #f8f84f;
+    margin-top: 3rem;
+    letter-spacing: 5px;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    text-decoration: none;
+    color: #f8f84f;
+    font-size: 3rem;
+    transition: all ease-in-out .5s;
+    animation: rainbow 4s infinite ease-in-out;
+}
+
+#start:hover {
+    text-shadow: 3px 3px 3px #fff;
+    font-size: 3.5rem;
+}
+
+@keyframes rainbow {
+    100%, 0% {
+        color: #f8f84f;
+    }
+
+    8% {
+        color: #f84f4f;
+    }
+
+    16% {
+        color: #f84ff8;
+    }
+
+    25% {
+        color: #13f3ff;
+    }
+
+    41% {
+        color: #4ff84f;
+    }
+
+    50% {
+        color: #f8f84f;
+    }
+
+    58% {
+        color: #f84f4f;
+    }
+
+    66% {
+        color: #f84ff8;
+    }
+
+    75% {
+        color: #13f3ff;
+    }
+
+    91% {
+        color: #4ff84f;
+    }
+}
